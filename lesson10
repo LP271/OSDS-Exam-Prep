@@ -1,0 +1,114 @@
+{
+    "questions": [
+        {
+            "question": "What is a monolithic architecture?",
+            "options": [
+                "A software architecture model where all components are tightly coupled",
+                "A system that distributes components across multiple nodes",
+                "A design for real-time communication",
+                "A decentralized architecture for microservices"
+            ],
+            "answer": "A software architecture model where all components are tightly coupled"
+        },
+        {
+            "question": "What is a client-server architecture?",
+            "options": [
+                "An architecture where each client has its own dedicated server",
+                "A distributed system model with centralized servers providing resources to multiple clients",
+                "A peer-to-peer network design",
+                "A system designed for publish-subscribe messaging"
+            ],
+            "answer": "A distributed system model with centralized servers providing resources to multiple clients"
+        },
+        {
+            "question": "What is the publish-subscribe architecture?",
+            "options": [
+                "An architecture for direct communication between publishers and subscribers",
+                "A messaging model where publishers send data to topics and subscribers receive data from topics",
+                "A design for client-server communication",
+                "A protocol for real-time data synchronization"
+            ],
+            "answer": "A messaging model where publishers send data to topics and subscribers receive data from topics"
+        },
+        {
+            "question": "What is the key feature of microservices architecture?",
+            "options": [
+                "All components are implemented as a single, tightly coupled unit",
+                "Services are small, independent, and loosely coupled",
+                "It relies on centralized storage for data management",
+                "It cannot scale across multiple servers"
+            ],
+            "answer": "Services are small, independent, and loosely coupled"
+        },
+        {
+            "question": "What is XaaS in distributed systems?",
+            "options": [
+                "A term that refers to any service delivered over the internet",
+                "A storage solution for large datasets",
+                "A model for peer-to-peer communication",
+                "A design principle for monolithic applications"
+            ],
+            "answer": "A term that refers to any service delivered over the internet"
+        },
+        {
+            "question": "Which of the following is an example of Infrastructure as a Service (IaaS)?",
+            "options": [
+                "Google Workspace",
+                "Microsoft Azure Virtual Machines",
+                "Salesforce",
+                "Heroku"
+            ],
+            "answer": "Microsoft Azure Virtual Machines"
+        },
+        {
+            "question": "What does the Raft consensus algorithm solve?",
+            "options": [
+                "Load balancing across servers",
+                "Leader election and state replication in distributed systems",
+                "Optimizing client-server communication",
+                "Reducing storage redundancy in distributed systems"
+            ],
+            "answer": "Leader election and state replication in distributed systems"
+        },
+        {
+            "question": "What is a self-signed certificate?",
+            "options": [
+                "A certificate issued by a trusted Certificate Authority",
+                "A certificate signed by the owner, not a Certificate Authority",
+                "A certificate used for encrypting real-time video streams",
+                "A certificate required for all HTTPS traffic"
+            ],
+            "answer": "A certificate signed by the owner, not a Certificate Authority"
+        },
+        {
+            "question": "What is the purpose of a Certificate Signing Request (CSR)?",
+            "options": [
+                "To generate a private key for encryption",
+                "To request a digital certificate from a Certificate Authority",
+                "To revoke an existing certificate",
+                "To establish a secure peer-to-peer connection"
+            ],
+            "answer": "To request a digital certificate from a Certificate Authority"
+        },
+        {
+            "question": "What is the primary purpose of the 12-factor app methodology?",
+            "options": [
+                "To design monolithic applications",
+                "To create scalable and maintainable cloud-native applications",
+                "To optimize hardware usage",
+                "To provide security for distributed systems"
+            ],
+            "answer": "To create scalable and maintainable cloud-native applications"
+        },
+        {
+            "question": "What does the 'Factor 1: Codebase' in the 12-factor app methodology mean?",
+            "options": [
+                "The application must be split into multiple repositories",
+                "The application should have a single codebase tracked in version control",
+                "Each service should maintain its own codebase",
+                "The codebase must not be shared across environments"
+            ],
+            "answer": "The application should have a single codebase tracked in version control"
+        }
+    ]
+}

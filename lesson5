@@ -1,0 +1,144 @@
+{
+    "questions": [
+        {
+            "question": "What is the primary purpose of containers?",
+            "options": [
+                "To virtualize hardware resources",
+                "To package code and dependencies together",
+                "To replace virtual machines",
+                "To manage memory allocation"
+            ],
+            "answer": "To package code and dependencies together"
+        },
+        {
+            "question": "What is the advantage of containers over virtual machines?",
+            "options": [
+                "Containers are faster but require more resources",
+                "Containers take up less space and share the OS kernel",
+                "Containers are fully isolated and require separate OS instances",
+                "Containers are only used for small applications"
+            ],
+            "answer": "Containers take up less space and share the OS kernel"
+        },
+        {
+            "question": "What is container orchestration?",
+            "options": [
+                "A method for creating containers",
+                "A tool for managing and scaling containers",
+                "A process to deploy virtual machines",
+                "A way to package dependencies with the container"
+            ],
+            "answer": "A tool for managing and scaling containers"
+        },
+        {
+            "question": "What is Kubernetes primarily used for?",
+            "options": [
+                "Managing virtual machines",
+                "Managing containerized applications",
+                "Storing container images",
+                "Creating operating systems"
+            ],
+            "answer": "Managing containerized applications"
+        },
+        {
+            "question": "What are Kubernetes Namespaces used for?",
+            "options": [
+                "To group containers based on size",
+                "To divide cluster resources among multiple users or teams",
+                "To isolate physical nodes in a cluster",
+                "To set permissions for container images"
+            ],
+            "answer": "To divide cluster resources among multiple users or teams"
+        },
+        {
+            "question": "What does a Kubernetes Deployment define?",
+            "options": [
+                "How to scale physical nodes in a cluster",
+                "How Pods should be created, updated, and scaled",
+                "The configuration of a container runtime",
+                "The permissions for accessing containers"
+            ],
+            "answer": "How Pods should be created, updated, and scaled"
+        },
+        {
+            "question": "What is the primary function of Kubernetes Services?",
+            "options": [
+                "To expose containers to external networks",
+                "To manage internal communication between Pods",
+                "To define logical sets of Pods and provide stable network endpoints",
+                "To load container images into memory"
+            ],
+            "answer": "To define logical sets of Pods and provide stable network endpoints"
+        },
+        {
+            "question": "What type of Service in Kubernetes is only accessible within the cluster?",
+            "options": [
+                "NodePort",
+                "ClusterIP",
+                "LoadBalancer",
+                "Ingress"
+            ],
+            "answer": "ClusterIP"
+        },
+        {
+            "question": "Which Kubernetes Service exposes the application on the same port across all nodes?",
+            "options": [
+                "NodePort",
+                "ClusterIP",
+                "LoadBalancer",
+                "Ingress"
+            ],
+            "answer": "NodePort"
+        },
+        {
+            "question": "What is a Kubernetes Secret used for?",
+            "options": [
+                "Storing sensitive information securely",
+                "Managing access to containerized applications",
+                "Storing logs of container activity",
+                "Creating virtual networks for Pods"
+            ],
+            "answer": "Storing sensitive information securely"
+        },
+        {
+            "question": "How does Kubernetes manage updates to Pods without downtime?",
+            "options": [
+                "Through ReplicaSets",
+                "Through Deployments with rolling updates",
+                "By stopping all Pods and starting new ones",
+                "By scaling the cluster temporarily"
+            ],
+            "answer": "Through Deployments with rolling updates"
+        },
+        {
+            "question": "What is the main function of a Kubernetes Pod?",
+            "options": [
+                "To store container images",
+                "To run one or more containers",
+                "To define the network policy",
+                "To manage storage for applications"
+            ],
+            "answer": "To run one or more containers"
+        },
+        {
+            "question": "Which Kubernetes Service uses a cloud provider's load balancer to expose an application?",
+            "options": [
+                "ClusterIP",
+                "NodePort",
+                "LoadBalancer",
+                "Ingress"
+            ],
+            "answer": "LoadBalancer"
+        },
+        {
+            "question": "What is a key benefit of using Kubernetes Namespaces?",
+            "options": [
+                "They improve network speeds within the cluster",
+                "They allow multiple users or teams to use the same cluster with isolation",
+                "They enable automatic scaling of Pods",
+                "They provide encryption for Secrets"
+            ],
+            "answer": "They allow multiple users or teams to use the same cluster with isolation"
+        }
+    ]
+}

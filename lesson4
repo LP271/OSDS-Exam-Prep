@@ -1,0 +1,154 @@
+{
+    "questions": [
+        {
+            "question": "What is the primary function of main memory?",
+            "options": [
+                "To store non-volatile data",
+                "To execute programs and temporarily store their data",
+                "To provide backup for storage devices",
+                "To manage hardware resources"
+            ],
+            "answer": "To execute programs and temporarily store their data"
+        },
+        {
+            "question": "Which memory management technique minimizes external fragmentation?",
+            "options": [
+                "Fixed Partitioning",
+                "Paging",
+                "Variable Partitioning",
+                "Segmented Paging"
+            ],
+            "answer": "Paging"
+        },
+        {
+            "question": "What is virtual memory?",
+            "options": [
+                "A technique to store data across multiple physical drives",
+                "An illusion that allows programs larger than physical memory to run",
+                "A dedicated section of RAM for critical processes",
+                "A hardware feature for secure memory access"
+            ],
+            "answer": "An illusion that allows programs larger than physical memory to run"
+        },
+        {
+            "question": "What is the primary purpose of a page replacement algorithm?",
+            "options": [
+                "To allocate memory to new processes",
+                "To determine which page to replace when memory is full",
+                "To optimize disk I/O operations",
+                "To prevent internal fragmentation"
+            ],
+            "answer": "To determine which page to replace when memory is full"
+        },
+        {
+            "question": "Which page replacement algorithm replaces the page that has been in memory the longest?",
+            "options": [
+                "Optimal Page Replacement",
+                "Least Recently Used (LRU)",
+                "First In First Out (FIFO)",
+                "Most Recently Used (MRU)"
+            ],
+            "answer": "First In First Out (FIFO)"
+        },
+        {
+            "question": "What is the function of the stack in process memory?",
+            "options": [
+                "To store global and static variables",
+                "To store local variables and manage function calls",
+                "To allocate memory dynamically",
+                "To store the program code"
+            ],
+            "answer": "To store local variables and manage function calls"
+        },
+        {
+            "question": "What does 'Multithreading' refer to?",
+            "options": [
+                "Executing multiple processes simultaneously",
+                "Executing multiple threads within a single process",
+                "Using multiple cores to run a single thread",
+                "Running programs in a distributed system"
+            ],
+            "answer": "Executing multiple threads within a single process"
+        },
+        {
+            "question": "What is a race condition?",
+            "options": [
+                "When multiple threads execute independently",
+                "When multiple processes compete for a non-shareable resource",
+                "When a thread executes faster than others",
+                "When threads are executed sequentially"
+            ],
+            "answer": "When multiple processes compete for a non-shareable resource"
+        },
+        {
+            "question": "Which synchronization condition ensures no two processes are in the critical section simultaneously?",
+            "options": [
+                "Progress",
+                "Mutual Exclusion",
+                "Bounded Waiting",
+                "Atomicity"
+            ],
+            "answer": "Mutual Exclusion"
+        },
+        {
+            "question": "Which synchronization mechanism is used to prevent race conditions?",
+            "options": [
+                "Critical Section",
+                "Semaphores",
+                "Thread Pools",
+                "Multitasking"
+            ],
+            "answer": "Semaphores"
+        },
+        {
+            "question": "What is deadlock in operating systems?",
+            "options": [
+                "A state where multiple processes run simultaneously",
+                "A state where processes wait indefinitely for resources held by each other",
+                "A situation where threads execute out of order",
+                "An issue with memory allocation in multitasking systems"
+            ],
+            "answer": "A state where processes wait indefinitely for resources held by each other"
+        },
+        {
+            "question": "What is the primary benefit of threads over processes?",
+            "options": [
+                "Threads are more reliable",
+                "Threads use separate address spaces",
+                "Threads share the same address space, reducing overhead",
+                "Threads are faster due to their size"
+            ],
+            "answer": "Threads share the same address space, reducing overhead"
+        },
+        {
+            "question": "What is inter-process communication (IPC)?",
+            "options": [
+                "A mechanism for threads to communicate",
+                "A technique for memory management",
+                "A method for processes to exchange data",
+                "A process scheduling algorithm"
+            ],
+            "answer": "A method for processes to exchange data"
+        },
+        {
+            "question": "What is the main advantage of shared memory in IPC?",
+            "options": [
+                "Simplifies memory allocation",
+                "Provides faster communication by avoiding the kernel",
+                "Ensures no memory conflicts",
+                "Requires no synchronization mechanisms"
+            ],
+            "answer": "Provides faster communication by avoiding the kernel"
+        },
+        {
+            "question": "What is the difference between concurrency and parallelism?",
+            "options": [
+                "Concurrency runs on a single processor, parallelism uses multiple processors",
+                "Concurrency is for multitasking, parallelism is for single-tasking",
+                "Concurrency ensures sequential execution, parallelism does not",
+                "Concurrency is hardware-based, parallelism is software-based"
+            ],
+            "answer": "Concurrency runs on a single processor, parallelism uses multiple processors"
+        }
+    ]
+}

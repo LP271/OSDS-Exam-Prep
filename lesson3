@@ -1,0 +1,154 @@
+{
+    "questions": [
+        {
+            "question": "What is a file in the context of file systems?",
+            "options": [
+                "A collection of unrelated data entries",
+                "A collection of logically related entries or records",
+                "A set of random binary data",
+                "A partition on a storage device"
+            ],
+            "answer": "A collection of logically related entries or records"
+        },
+        {
+            "question": "What does a file system describe?",
+            "options": [
+                "How files are mapped onto physical devices",
+                "How files are created without metadata",
+                "How to access memory directly",
+                "How to format a storage device"
+            ],
+            "answer": "How files are mapped onto physical devices"
+        },
+        {
+            "question": "What is the function of the logical file system layer?",
+            "options": [
+                "Manages I/O devices directly",
+                "Manages memory buffers and caches",
+                "Translates file names into file numbers and manages metadata",
+                "Directly interfaces with storage hardware"
+            ],
+            "answer": "Translates file names into file numbers and manages metadata"
+        },
+        {
+            "question": "Which file attribute controls access permissions?",
+            "options": [
+                "Name",
+                "Type",
+                "Protection",
+                "Size"
+            ],
+            "answer": "Protection"
+        },
+        {
+            "question": "What is a directory structure used for?",
+            "options": [
+                "Organizing files logically for efficiency and grouping",
+                "Defining access permissions",
+                "Mapping logical addresses to physical memory",
+                "Allocating storage space for files"
+            ],
+            "answer": "Organizing files logically for efficiency and grouping"
+        },
+        {
+            "question": "Which directory structure allows for shared subdirectories and files?",
+            "options": [
+                "Single-Level Directory",
+                "Tree-Structured Directories",
+                "Acyclic-Graph Directories",
+                "Two-Level Directory"
+            ],
+            "answer": "Acyclic-Graph Directories"
+        },
+        {
+            "question": "What is contiguous allocation in file systems?",
+            "options": [
+                "Files are stored as a linked list of blocks",
+                "Files are stored in sequential blocks on disk",
+                "Files are allocated dynamically based on access patterns",
+                "Files are indexed in a central table"
+            ],
+            "answer": "Files are stored in sequential blocks on disk"
+        },
+        {
+            "question": "Which type of fragmentation occurs when memory is allocated but not fully utilized?",
+            "options": [
+                "External Fragmentation",
+                "Logical Fragmentation",
+                "Physical Fragmentation",
+                "Internal Fragmentation"
+            ],
+            "answer": "Internal Fragmentation"
+        },
+        {
+            "question": "What is rotational latency in disk I/O?",
+            "options": [
+                "Time taken to transfer data to memory",
+                "Time to position the read/write head over the desired track",
+                "Time for the desired sector to rotate under the read/write head",
+                "Time to complete a full rotation of the disk"
+            ],
+            "answer": "Time for the desired sector to rotate under the read/write head"
+        },
+        {
+            "question": "Which RAID level uses data striping but no redundancy?",
+            "options": [
+                "RAID 0",
+                "RAID 1",
+                "RAID 5",
+                "RAID 6"
+            ],
+            "answer": "RAID 0"
+        },
+        {
+            "question": "Which RAID level provides data mirroring for high reliability?",
+            "options": [
+                "RAID 0",
+                "RAID 1",
+                "RAID 3",
+                "RAID 5"
+            ],
+            "answer": "RAID 1"
+        },
+        {
+            "question": "What does IOPS stand for?",
+            "options": [
+                "Input/Output Power System",
+                "Integrated Operations Per Second",
+                "Input/Output Operations Per Second",
+                "Internal Operations Per Sector"
+            ],
+            "answer": "Input/Output Operations Per Second"
+        },
+        {
+            "question": "Which disk scheduling algorithm moves the head back to the start after reaching the end?",
+            "options": [
+                "SCAN Scheduling",
+                "C-SCAN Scheduling",
+                "FCFS Scheduling",
+                "SSTF Scheduling"
+            ],
+            "answer": "C-SCAN Scheduling"
+        },
+        {
+            "question": "What is a key characteristic of SSDs compared to HDDs?",
+            "options": [
+                "Higher capacity and lower cost",
+                "Lower latency and higher IOPS",
+                "Lower power consumption and mechanical design",
+                "Increased rotational latency"
+            ],
+            "answer": "Lower latency and higher IOPS"
+        },
+        {
+            "question": "Which memory allocation solution helps resolve external fragmentation?",
+            "options": [
+                "Paging",
+                "Variable Partitioning",
+                "Contiguous Allocation",
+                "Indexed Allocation"
+            ],
+            "answer": "Paging"
+        }
+    ]
+}

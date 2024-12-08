@@ -1,0 +1,154 @@
+{
+    "questions": [
+        {
+            "question": "What is the CIA triad in cybersecurity?",
+            "options": [
+                "Confidentiality, Integrity, Availability",
+                "Confidentiality, Authentication, Access",
+                "Integrity, Availability, Assurance",
+                "Authentication, Authorization, Anonymity"
+            ],
+            "answer": "Confidentiality, Integrity, Availability"
+        },
+        {
+            "question": "What is the primary goal of confidentiality in cybersecurity?",
+            "options": [
+                "To prevent unauthorized access to systems",
+                "To ensure that information is not disclosed to unauthorized individuals",
+                "To make data available in a timely manner",
+                "To prevent denial-of-service attacks"
+            ],
+            "answer": "To ensure that information is not disclosed to unauthorized individuals"
+        },
+        {
+            "question": "What is encryption in communications?",
+            "options": [
+                "The process of transforming information using a secret key so it can only be read with another key",
+                "The method of storing data in plain text",
+                "The process of assigning permissions to a user",
+                "A system for identifying users through passwords"
+            ],
+            "answer": "The process of transforming information using a secret key so it can only be read with another key"
+        },
+        {
+            "question": "What is the role of access control?",
+            "options": [
+                "To ensure data confidentiality through encryption",
+                "To limit access to confidential information based on identity or role",
+                "To monitor system performance",
+                "To establish network connections"
+            ],
+            "answer": "To limit access to confidential information based on identity or role"
+        },
+        {
+            "question": "What is authentication?",
+            "options": [
+                "Determining a user's access permissions",
+                "Verifying the identity of a user or system",
+                "Encrypting sensitive information",
+                "Assigning roles to users"
+            ],
+            "answer": "Verifying the identity of a user or system"
+        },
+        {
+            "question": "What does the 'availability' in the CIA triad ensure?",
+            "options": [
+                "Data is not tampered with",
+                "Systems and data are accessible in a timely manner",
+                "Only authorized individuals can access data",
+                "Encryption is implemented correctly"
+            ],
+            "answer": "Systems and data are accessible in a timely manner"
+        },
+        {
+            "question": "Which method can improve system availability?",
+            "options": [
+                "Encryption of data",
+                "Redundancy in server farms",
+                "Limiting user access permissions",
+                "Removing unused system services"
+            ],
+            "answer": "Redundancy in server farms"
+        },
+        {
+            "question": "What is the purpose of the Diffie-Hellman key exchange?",
+            "options": [
+                "To provide public key infrastructure",
+                "To enable two parties to securely exchange cryptographic keys",
+                "To authenticate user credentials",
+                "To encrypt data in transit"
+            ],
+            "answer": "To enable two parties to securely exchange cryptographic keys"
+        },
+        {
+            "question": "What is a digital signature primarily used for?",
+            "options": [
+                "To encrypt user data",
+                "To ensure non-repudiation and authenticity of documents",
+                "To create backups of critical information",
+                "To provide access control to network systems"
+            ],
+            "answer": "To ensure non-repudiation and authenticity of documents"
+        },
+        {
+            "question": "What is the function of a firewall?",
+            "options": [
+                "To secure communications through encryption",
+                "To prevent unauthorized access to a network",
+                "To provide redundancy in server farms",
+                "To monitor and log network traffic"
+            ],
+            "answer": "To prevent unauthorized access to a network"
+        },
+        {
+            "question": "What is the difference between symmetric and asymmetric encryption?",
+            "options": [
+                "Symmetric encryption uses a single key, while asymmetric encryption uses a pair of keys",
+                "Symmetric encryption is slower than asymmetric encryption",
+                "Asymmetric encryption requires shared keys between sender and receiver",
+                "Symmetric encryption is used only for digital signatures"
+            ],
+            "answer": "Symmetric encryption uses a single key, while asymmetric encryption uses a pair of keys"
+        },
+        {
+            "question": "What is the purpose of a certificate in digital security?",
+            "options": [
+                "To encrypt data for secure storage",
+                "To verify the authenticity of entities in communication",
+                "To replace passwords for authentication",
+                "To serve as an encryption algorithm"
+            ],
+            "answer": "To verify the authenticity of entities in communication"
+        },
+        {
+            "question": "What is non-repudiation in digital communication?",
+            "options": [
+                "Ensuring data confidentiality",
+                "Ensuring that a sender cannot deny sending a message",
+                "Preventing unauthorized access to systems",
+                "Providing availability to resources"
+            ],
+            "answer": "Ensuring that a sender cannot deny sending a message"
+        },
+        {
+            "question": "What are the three components of A.A.A. in security?",
+            "options": [
+                "Authentication, Authorization, Anonymity",
+                "Access, Availability, Assurance",
+                "Authentication, Authorization, Accounting",
+                "Anonymity, Accounting, Availability"
+            ],
+            "answer": "Authentication, Authorization, Accounting"
+        },
+        {
+            "question": "What is a key advantage of TLS over SSL?",
+            "options": [
+                "TLS is faster and more secure than SSL",
+                "TLS supports more encryption algorithms",
+                "TLS is compatible with all legacy systems",
+                "TLS does not require certificates"
+            ],
+            "answer": "TLS is faster and more secure than SSL"
+        }
+    ]
+}

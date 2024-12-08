@@ -1,0 +1,134 @@
+{
+    "questions": [
+        {
+            "question": "What is batch processing in the context of big data?",
+            "options": [
+                "Processing data in small, continuous streams",
+                "Processing large volumes of data in bulk",
+                "Real-time analysis of IoT data",
+                "Sending data packets across networks"
+            ],
+            "answer": "Processing large volumes of data in bulk"
+        },
+        {
+            "question": "What framework is commonly associated with batch processing?",
+            "options": [
+                "Hadoop",
+                "Kafka",
+                "WebRTC",
+                "Docker"
+            ],
+            "answer": "Hadoop"
+        },
+        {
+            "question": "What is the role of HDFS in batch processing?",
+            "options": [
+                "To distribute processing tasks among nodes",
+                "To provide scalable and fault-tolerant storage for large datasets",
+                "To stream real-time data to users",
+                "To handle database transactions"
+            ],
+            "answer": "To provide scalable and fault-tolerant storage for large datasets"
+        },
+        {
+            "question": "What is the primary feature of stream processing?",
+            "options": [
+                "Processing data as soon as it is received",
+                "Processing data in large batches",
+                "Storing data for future analysis",
+                "Managing database transactions"
+            ],
+            "answer": "Processing data as soon as it is received"
+        },
+        {
+            "question": "Which is a common use case for stream processing?",
+            "options": [
+                "Generating static reports",
+                "Fraud detection in real-time",
+                "Data archival",
+                "Backup and recovery"
+            ],
+            "answer": "Fraud detection in real-time"
+        },
+        {
+            "question": "What is the key difference between batch and stream processing?",
+            "options": [
+                "Batch processing is for real-time analytics, stream processing is not",
+                "Stream processing processes data as it arrives, while batch processing works on accumulated data",
+                "Batch processing is faster than stream processing",
+                "Stream processing requires Hadoop, batch processing does not"
+            ],
+            "answer": "Stream processing processes data as it arrives, while batch processing works on accumulated data"
+        },
+        {
+            "question": "What transport protocol is primarily used by WebRTC for real-time communication?",
+            "options": [
+                "TCP",
+                "UDP",
+                "FTP",
+                "HTTP"
+            ],
+            "answer": "UDP"
+        },
+        {
+            "question": "What is the purpose of the Interactive Connectivity Establishment (ICE) framework in WebRTC?",
+            "options": [
+                "To encrypt communication between peers",
+                "To establish the best path for direct peer-to-peer connection",
+                "To manage video codecs",
+                "To provide error correction for data transfer"
+            ],
+            "answer": "To establish the best path for direct peer-to-peer connection"
+        },
+        {
+            "question": "What is a publish-subscribe (pub-sub) architecture?",
+            "options": [
+                "A model where publishers send messages directly to subscribers",
+                "A model where publishers push data to topics, and subscribers pull messages from these topics",
+                "A model for database replication",
+                "A design for peer-to-peer communication"
+            ],
+            "answer": "A model where publishers push data to topics, and subscribers pull messages from these topics"
+        },
+        {
+            "question": "What is Apache Kafka commonly used for?",
+            "options": [
+                "Batch processing",
+                "Stream processing and message brokering",
+                "Real-time video encoding",
+                "Data backup and restoration"
+            ],
+            "answer": "Stream processing and message brokering"
+        },
+        {
+            "question": "Which feature of Kafka ensures fault tolerance in message storage?",
+            "options": [
+                "Partitioning",
+                "Replication",
+                "Load balancing",
+                "Streaming"
+            ],
+            "answer": "Replication"
+        },
+        {
+            "question": "What is the purpose of WebRTC's DTLS (Datagram Transport Layer Security)?",
+            "options": [
+                "To provide encryption for real-time communication",
+                "To ensure low latency in data transfer",
+                "To manage session descriptions",
+                "To act as a fallback protocol for TCP"
+            ],
+            "answer": "To provide encryption for real-time communication"
+        },
+        {
+            "question": "What is a major advantage of using UDP over TCP in streaming?",
+            "options": [
+                "It ensures error-free data transfer",
+                "It provides low-latency, connectionless communication",
+                "It guarantees ordered data packets",
+                "It supports retransmissions"
+            ],
+            "answer": "It provides low-latency, connectionless communication"
+        }
+    ]
+}

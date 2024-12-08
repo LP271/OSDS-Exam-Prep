@@ -1,0 +1,154 @@
+{
+    "questions": [
+        {
+            "question": "What is the primary purpose of the TCP/IP model?",
+            "options": [
+                "To create secure network connections",
+                "To define a set of protocols for the internet",
+                "To enforce hardware compatibility",
+                "To replace the OSI model entirely"
+            ],
+            "answer": "To define a set of protocols for the internet"
+        },
+        {
+            "question": "Which layer in the TCP/IP model is responsible for resource sharing and remote file access?",
+            "options": [
+                "Transport layer",
+                "Network layer",
+                "Application layer",
+                "Data link layer"
+            ],
+            "answer": "Application layer"
+        },
+        {
+            "question": "Which protocol operates at the transport layer of the TCP/IP model?",
+            "options": [
+                "HTTP",
+                "TCP",
+                "IP",
+                "Ethernet"
+            ],
+            "answer": "TCP"
+        },
+        {
+            "question": "What addressing method is used at the network layer in the TCP/IP model?",
+            "options": [
+                "MAC addresses",
+                "Port numbers",
+                "IP addresses",
+                "DNS names"
+            ],
+            "answer": "IP addresses"
+        },
+        {
+            "question": "What is the function of the data link layer in the TCP/IP model?",
+            "options": [
+                "To manage application-level protocols",
+                "To provide error detection and correction, and manage MAC addresses",
+                "To route packets across networks",
+                "To encrypt and secure data"
+            ],
+            "answer": "To provide error detection and correction, and manage MAC addresses"
+        },
+        {
+            "question": "Which protocol is used for email transfer at the application layer?",
+            "options": [
+                "SMTP",
+                "FTP",
+                "HTTP",
+                "DNS"
+            ],
+            "answer": "SMTP"
+        },
+        {
+            "question": "What is the purpose of NAT (Network Address Translation)?",
+            "options": [
+                "To translate private IP addresses to public IP addresses for internet access",
+                "To assign MAC addresses to devices on the network",
+                "To encrypt all internet traffic",
+                "To create subnet masks for IP ranges"
+            ],
+            "answer": "To translate private IP addresses to public IP addresses for internet access"
+        },
+        {
+            "question": "What does DHCP stand for?",
+            "options": [
+                "Data Handling Communication Protocol",
+                "Dynamic Host Configuration Protocol",
+                "Domain Host Communication Protocol",
+                "Dynamic Hardware Control Protocol"
+            ],
+            "answer": "Dynamic Host Configuration Protocol"
+        },
+        {
+            "question": "What is a routable IP address?",
+            "options": [
+                "An IP address reserved for local networks",
+                "An IP address used within a single subnet",
+                "An IP address that can be accessed over the internet",
+                "An IP address with no assigned gateway"
+            ],
+            "answer": "An IP address that can be accessed over the internet"
+        },
+        {
+            "question": "Which type of IP addresses are reserved for private networks?",
+            "options": [
+                "130.226.87.9",
+                "10.0.0.0/8",
+                "192.0.2.1",
+                "8.8.8.8"
+            ],
+            "answer": "10.0.0.0/8"
+        },
+        {
+            "question": "What is the maximum number of bits in an IPv4 address?",
+            "options": [
+                "32 bits",
+                "64 bits",
+                "128 bits",
+                "16 bits"
+            ],
+            "answer": "32 bits"
+        },
+        {
+            "question": "What does the CIDR notation /24 signify?",
+            "options": [
+                "The first 24 bits of the IP address are reserved for hosts",
+                "The first 24 bits of the IP address are used for the network",
+                "24 IP addresses can be allocated within the range",
+                "The IP address is for a private network"
+            ],
+            "answer": "The first 24 bits of the IP address are used for the network"
+        },
+        {
+            "question": "Which layer of the OSI model corresponds to the physical transmission of data?",
+            "options": [
+                "Data link layer",
+                "Physical layer",
+                "Network layer",
+                "Transport layer"
+            ],
+            "answer": "Physical layer"
+        },
+        {
+            "question": "What is the purpose of a MAC address?",
+            "options": [
+                "To route packets across different networks",
+                "To provide a unique identifier for devices on the same network",
+                "To encrypt data at the physical layer",
+                "To assign IP addresses to devices"
+            ],
+            "answer": "To provide a unique identifier for devices on the same network"
+        },
+        {
+            "question": "What is the main difference between IPv4 and IPv6?",
+            "options": [
+                "IPv4 uses 64-bit addresses, IPv6 uses 128-bit addresses",
+                "IPv4 supports encryption, IPv6 does not",
+                "IPv4 has 32-bit addresses, IPv6 has 128-bit addresses",
+                "IPv4 is designed for private networks only"
+            ],
+            "answer": "IPv4 has 32-bit addresses, IPv6 has 128-bit addresses"
+        }
+    ]
+}

@@ -1,0 +1,154 @@
+{
+    "questions": [
+        {
+            "question": "What is the primary purpose of software architecture?",
+            "options": [
+                "To define the larger structures of a software system",
+                "To design the internal logic of a software process",
+                "To manage hardware resources efficiently",
+                "To define the UI components of a system"
+            ],
+            "answer": "To define the larger structures of a software system"
+        },
+        {
+            "question": "What is the CAP theorem in distributed systems?",
+            "options": [
+                "A theory that explains how to achieve 100% reliability in distributed systems",
+                "A theory stating that distributed systems can only guarantee two of the following: Consistency, Availability, or Partition Tolerance",
+                "A guideline for database transactions to be secure and fast",
+                "A principle for designing fault-tolerant hardware"
+            ],
+            "answer": "A theory stating that distributed systems can only guarantee two of the following: Consistency, Availability, or Partition Tolerance"
+        },
+        {
+            "question": "What is the role of the transaction log in a database system?",
+            "options": [
+                "To store metadata about database tables",
+                "To keep a record of all changes made to the database",
+                "To manage user access and permissions",
+                "To store temporary data during queries"
+            ],
+            "answer": "To keep a record of all changes made to the database"
+        },
+        {
+            "question": "What does the 'Atomicity' property of ACID transactions ensure?",
+            "options": [
+                "All changes are performed as a single transaction, or none at all",
+                "The database remains in a consistent state before and after the transaction",
+                "Transaction data is isolated from other transactions",
+                "Changes are permanent after the transaction completes"
+            ],
+            "answer": "All changes are performed as a single transaction, or none at all"
+        },
+        {
+            "question": "What does the 'Consistency' property of ACID transactions guarantee?",
+            "options": [
+                "Transactions will not affect the availability of the database",
+                "The database will always be in a valid state after a transaction",
+                "Changes made by one transaction are visible to others immediately",
+                "The system can recover from a crash with no data loss"
+            ],
+            "answer": "The database will always be in a valid state after a transaction"
+        },
+        {
+            "question": "What is failover clustering?",
+            "options": [
+                "A method to optimize database queries",
+                "A feature for fault tolerance and high availability in distributed systems",
+                "A clustering algorithm for machine learning",
+                "A way to schedule concurrent threads"
+            ],
+            "answer": "A feature for fault tolerance and high availability in distributed systems"
+        },
+        {
+            "question": "What does the 'MTBF' metric measure?",
+            "options": [
+                "The average time taken to repair a system after failure",
+                "The time between consecutive failures of a system",
+                "The total downtime of a system in a given period",
+                "The performance of a database query"
+            ],
+            "answer": "The time between consecutive failures of a system"
+        },
+        {
+            "question": "What does the 'MTTR' metric measure?",
+            "options": [
+                "The average time taken to repair a system after failure",
+                "The time between consecutive failures of a system",
+                "The throughput of a distributed system",
+                "The consistency of database transactions"
+            ],
+            "answer": "The average time taken to repair a system after failure"
+        },
+        {
+            "question": "What is a tactic to improve energy efficiency in software systems?",
+            "options": [
+                "Increase concurrency",
+                "Prioritize event arrival",
+                "Enhance database redundancy",
+                "Use failover clustering"
+            ],
+            "answer": "Prioritize event arrival"
+        },
+        {
+            "question": "What is 'modifiability' in software architecture?",
+            "options": [
+                "The ability to handle high loads efficiently",
+                "The degree of effort required to change the system",
+                "The ability to recover from hardware failures",
+                "The security level of a software system"
+            ],
+            "answer": "The degree of effort required to change the system"
+        },
+        {
+            "question": "What is the role of 'encapsulation' in improving modifiability?",
+            "options": [
+                "It isolates components to reduce coupling",
+                "It enhances database transaction performance",
+                "It improves data consistency across clusters",
+                "It allows for dynamic hardware configuration"
+            ],
+            "answer": "It isolates components to reduce coupling"
+        },
+        {
+            "question": "What is the 'CIA Triad' in security?",
+            "options": [
+                "Consistency, Integrity, and Authentication",
+                "Confidentiality, Integrity, and Availability",
+                "Confidentiality, Isolation, and Authentication",
+                "Consistency, Isolation, and Availability"
+            ],
+            "answer": "Confidentiality, Integrity, and Availability"
+        },
+        {
+            "question": "What is the purpose of 'rollback' in safety tactics?",
+            "options": [
+                "To restore the system to a safe state after an unsafe condition",
+                "To improve the system's energy efficiency",
+                "To increase concurrency for performance",
+                "To secure the system from external attacks"
+            ],
+            "answer": "To restore the system to a safe state after an unsafe condition"
+        },
+        {
+            "question": "What is a key benefit of continuous deployment?",
+            "options": [
+                "Reduces the system's MTBF",
+                "Allows for automated rollbacks in production",
+                "Ensures frequent and rapid releases to production",
+                "Improves database transaction isolation"
+            ],
+            "answer": "Ensures frequent and rapid releases to production"
+        },
+        {
+            "question": "What does 'testability' in software architecture refer to?",
+            "options": [
+                "The degree of effort needed to test a system",
+                "The performance of a system under load",
+                "The time it takes to deploy updates",
+                "The resilience of a system against failures"
+            ],
+            "answer": "The degree of effort needed to test a system"
+        }
+    ]
+}

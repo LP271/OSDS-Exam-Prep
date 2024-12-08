@@ -1,0 +1,114 @@
+{
+    "questions": [
+        {
+            "question": "What is a virtual machine (VM)?",
+            "options": [
+                "A physical machine used for hosting websites",
+                "A virtualized environment of a physical computer",
+                "A type of server specifically for emails",
+                "A command-line tool for creating networks"
+            ],
+            "answer": "A virtualized environment of a physical computer"
+        },
+        {
+            "question": "How does a hypervisor work with virtual machines?",
+            "options": [
+                "It directly executes the virtual machine's code on hardware",
+                "It runs software to manage VM creation and operations",
+                "It compiles virtual machine code into physical machine code",
+                "It serves as a container for all VMs"
+            ],
+            "answer": "It runs software to manage VM creation and operations"
+        },
+        {
+            "question": "What is the difference between Type 1 and Type 2 hypervisors?",
+            "options": [
+                "Type 1 runs on the hardware, while Type 2 runs on an operating system",
+                "Type 1 is for containers, while Type 2 is for VMs",
+                "Type 1 requires Docker, while Type 2 does not",
+                "Type 1 is for small setups, and Type 2 is for large setups"
+            ],
+            "answer": "Type 1 runs on the hardware, while Type 2 runs on an operating system"
+        },
+        {
+            "question": "What is the key difference between containers and virtual machines?",
+            "options": [
+                "Containers share the host OS, while VMs have their own OS",
+                "Containers are larger and heavier than VMs",
+                "VMs run on Docker, while containers do not",
+                "VMs cannot run applications, but containers can"
+            ],
+            "answer": "Containers share the host OS, while VMs have their own OS"
+        },
+        {
+            "question": "What is the primary purpose of containers?",
+            "options": [
+                "To create isolated environments for applications",
+                "To virtualize hardware for multiple users",
+                "To simulate distributed networks",
+                "To store and analyze large data sets"
+            ],
+            "answer": "To create isolated environments for applications"
+        },
+        {
+            "question": "What is a Dockerfile?",
+            "options": [
+                "A script defining how to build a Docker image",
+                "A container runtime used to execute VMs",
+                "A configuration file for Kubernetes",
+                "A database for storing container data"
+            ],
+            "answer": "A script defining how to build a Docker image"
+        },
+        {
+            "question": "What is a Docker image?",
+            "options": [
+                "A preconfigured container ready to run",
+                "A visual representation of container statistics",
+                "A virtual machine template",
+                "A physical server with Docker installed"
+            ],
+            "answer": "A preconfigured container ready to run"
+        },
+        {
+            "question": "What is a Docker volume used for?",
+            "options": [
+                "Persisting data across container instances",
+                "Executing commands within a container",
+                "Scaling Docker images vertically",
+                "Managing Docker containers' memory usage"
+            ],
+            "answer": "Persisting data across container instances"
+        },
+        {
+            "question": "What is Kubernetes primarily used for?",
+            "options": [
+                "Managing containerized workloads and services",
+                "Creating virtual machines on physical servers",
+                "Configuring firewalls for container networks",
+                "Testing applications for distributed systems"
+            ],
+            "answer": "Managing containerized workloads and services"
+        },
+        {
+            "question": "What is the key benefit of Kubernetes over single-machine setups?",
+            "options": [
+                "It provides scalability and fault tolerance",
+                "It reduces the need for a hypervisor",
+                "It eliminates the need for operating systems",
+                "It runs only on local environments"
+            ],
+            "answer": "It provides scalability and fault tolerance"
+        },
+        {
+            "question": "What is horizontal scaling?",
+            "options": [
+                "Increasing the number of machines in a system",
+                "Adding more memory to a single machine",
+                "Replacing VMs with containers",
+                "Reducing the load on individual CPUs"
+            ],
+            "answer": "Increasing the number of machines in a system"
+        }
+    ]
+}

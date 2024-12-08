@@ -1,0 +1,144 @@
+{
+    "questions": [
+        {
+            "question": "What is the primary role of an operating system (OS)?",
+            "options": [
+                "To manage computer hardware efficiently",
+                "To act as an intermediary between the user and hardware",
+                "To execute user programs and serve users",
+                "All of the above"
+            ],
+            "answer": "All of the above"
+        },
+        {
+            "question": "What is the kernel in an operating system?",
+            "options": [
+                "The interface between hardware and user programs",
+                "The always-running program managing hardware",
+                "A program that provides only user interfaces",
+                "A software to run application programs"
+            ],
+            "answer": "The always-running program managing hardware"
+        },
+        {
+            "question": "Which type of operating system increases CPU utilization by running multiple programs in memory?",
+            "options": [
+                "Batch Operating System",
+                "Multi-Programming Operating System",
+                "Distributed Operating System",
+                "Real-Time Operating System"
+            ],
+            "answer": "Multi-Programming Operating System"
+        },
+        {
+            "question": "Which operating system type is strictly time-bounded?",
+            "options": [
+                "Multi-Processor Operating System",
+                "Distributed Operating System",
+                "Real-Time Operating System",
+                "Batch Operating System"
+            ],
+            "answer": "Real-Time Operating System"
+        },
+        {
+            "question": "What is the main difference between hard and soft real-time systems?",
+            "options": [
+                "Hard real-time systems have strict time constraints, while soft real-time systems are flexible.",
+                "Soft real-time systems are faster than hard real-time systems.",
+                "Hard real-time systems run only on Linux.",
+                "Soft real-time systems do not require scheduling."
+            ],
+            "answer": "Hard real-time systems have strict time constraints, while soft real-time systems are flexible."
+        },
+        {
+            "question": "Which part of a process memory is used for global and static variables?",
+            "options": [
+                "Heap",
+                "Text",
+                "Data",
+                "Stack"
+            ],
+            "answer": "Data"
+        },
+        {
+            "question": "What is the function of the Process Control Block (PCB)?",
+            "options": [
+                "To handle inter-process communication",
+                "To manage memory allocation",
+                "To store information required to track a process",
+                "To execute system calls"
+            ],
+            "answer": "To store information required to track a process"
+        },
+        {
+            "question": "In the process state transition diagram, which state indicates a process is waiting for an I/O event?",
+            "options": [
+                "Running",
+                "Terminated",
+                "Waiting",
+                "Ready"
+            ],
+            "answer": "Waiting"
+        },
+        {
+            "question": "What does the term 'Burst Time' refer to in process scheduling?",
+            "options": [
+                "The time a process spends waiting in the queue",
+                "The time required for a process to complete execution",
+                "The time taken to switch between processes",
+                "The time a process waits for I/O operations"
+            ],
+            "answer": "The time required for a process to complete execution"
+        },
+        {
+            "question": "What is a characteristic of First Come First Serve (FCFS) scheduling?",
+            "options": [
+                "Tasks are executed based on priority levels.",
+                "It is a preemptive scheduling algorithm.",
+                "Tasks are executed in the order they arrive.",
+                "It minimizes waiting time for all processes."
+            ],
+            "answer": "Tasks are executed in the order they arrive."
+        },
+        {
+            "question": "Which CPU scheduling algorithm selects the process with the smallest execution time next?",
+            "options": [
+                "Round Robin (RR)",
+                "Shortest Job First (SJF)",
+                "First Come First Serve (FCFS)",
+                "Priority-Based Scheduling"
+            ],
+            "answer": "Shortest Job First (SJF)"
+        },
+        {
+            "question": "What is the main advantage of the Round Robin (RR) scheduling algorithm?",
+            "options": [
+                "Minimizes average waiting time",
+                "Efficient for non-preemptive tasks",
+                "Fair allocation of CPU time slices",
+                "Reduces process burst times"
+            ],
+            "answer": "Fair allocation of CPU time slices"
+        },
+        {
+            "question": "What does 'Turnaround Time' represent in scheduling terms?",
+            "options": [
+                "Time when a process first enters the ready queue",
+                "Time taken for a process to complete execution from arrival",
+                "Time spent waiting for the CPU",
+                "Time required for process context switching"
+            ],
+            "answer": "Time taken for a process to complete execution from arrival"
+        },
+        {
+            "question": "Which scheduling algorithm is best suited for time-critical systems?",
+            "options": [
+                "Shortest Job First (SJF)",
+                "Priority-Based Scheduling",
+                "Round Robin (RR)",
+                "Real-Time Scheduling"
+            ],
+            "answer": "Real-Time Scheduling"
+        }
+    ]
+}
