@@ -1,0 +1,104 @@
+{
+    "questions": [
+        {
+            "question": "What is the password for the mock test?",
+            "options": [
+                "E24OSDSTEST1",
+                "T630010402-SB",
+                "OSDSTEST24",
+                "MockTestPassword"
+            ],
+            "answer": "E24OSDSTEST1"
+        },
+        {
+            "question": "Where will the semester exam take place?",
+            "options": [
+                "Online via Itslearning",
+                "On campus in allocated rooms",
+                "At a designated testing center",
+                "At home with remote monitoring"
+            ],
+            "answer": "On campus in allocated rooms"
+        },
+        {
+            "question": "What types of questions will the exam include?",
+            "options": [
+                "Only multiple-choice questions",
+                "MCQ, multiple answers, and short answers",
+                "Essay-based questions",
+                "Practical coding exercises"
+            ],
+            "answer": "MCQ, multiple answers, and short answers"
+        },
+        {
+            "question": "How many MCQ questions can be expected in the exam?",
+            "options": [
+                "5-10",
+                "15-20",
+                "30-35",
+                "40-50"
+            ],
+            "answer": "30-35"
+        },
+        {
+            "question": "What is the total duration of the exam?",
+            "options": [
+                "1 hour",
+                "1.5 hours",
+                "2 hours",
+                "3 hours"
+            ],
+            "answer": "2 hours"
+        },
+        {
+            "question": "What should students focus on while preparing for the exam?",
+            "options": [
+                "Learning only definitions",
+                "Practicing only numerical questions",
+                "Focusing on lecture slides and practicing numericals",
+                "Memorizing past exam papers"
+            ],
+            "answer": "Focusing on lecture slides and practicing numericals"
+        },
+        {
+            "question": "What aids are allowed during the exam?",
+            "options": [
+                "Open book",
+                "No aids allowed",
+                "Scientific calculator",
+                "Lecture notes"
+            ],
+            "answer": "No aids allowed"
+        },
+        {
+            "question": "What is the PIN code for the Exam Monitor during the examination?",
+            "options": [
+                "E24OSDSTEST1",
+                "T630010402-SB",
+                "MONITORPIN24",
+                "1234-SDU"
+            ],
+            "answer": "T630010402-SB"
+        },
+        {
+            "question": "What type of short-answer questions will be included in the exam?",
+            "options": [
+                "Numerical or defining terms",
+                "Long descriptive answers",
+                "Practical coding exercises",
+                "True or False statements"
+            ],
+            "answer": "Numerical or defining terms"
+        },
+        {
+            "question": "How should students address any questions or confusion about the topics?",
+            "options": [
+                "Reach out to the instructor via email",
+                "Consult external books",
+                "Rely on group discussions",
+                "Skip the topic entirely"
+            ],
+            "answer": "Reach out to the instructor via email"
+        }
+    ]
+}
