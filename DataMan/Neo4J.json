@@ -1,0 +1,104 @@
+{
+    "questions": [
+        {
+            "question": "What type of database is Neo4j?",
+            "options": [
+                "Relational Database",
+                "Document-oriented Database",
+                "Graph Database",
+                "Key-Value Store"
+            ],
+            "answer": "Graph Database"
+        },
+        {
+            "question": "What query language does Neo4j use?",
+            "options": [
+                "SQL",
+                "Cypher",
+                "SPARQL",
+                "GraphQL"
+            ],
+            "answer": "Cypher"
+        },
+        {
+            "question": "Which of the following is a key feature of Neo4j?",
+            "options": [
+                "Highly scalable, with billions of nodes and relationships",
+                "Uses BSON for data storage",
+                "Designed for tabular data",
+                "Incorporates hierarchical data storage"
+            ],
+            "answer": "Highly scalable, with billions of nodes and relationships"
+        },
+        {
+            "question": "What is the purpose of the MATCH keyword in Cypher?",
+            "options": [
+                "To filter query results",
+                "To define a new node",
+                "To search for patterns in the database",
+                "To update node properties"
+            ],
+            "answer": "To search for patterns in the database"
+        },
+        {
+            "question": "What does the following Cypher query do? MATCH (tom:Person {name: 'Tom Hanks'}) RETURN tom",
+            "options": [
+                "Adds a new node for Tom Hanks",
+                "Searches for a Person node named Tom Hanks and returns it",
+                "Deletes the Tom Hanks node",
+                "Updates the name of a Person node to Tom Hanks"
+            ],
+            "answer": "Searches for a Person node named Tom Hanks and returns it"
+        },
+        {
+            "question": "Which Neo4j plugin is commonly used for advanced operations and graph algorithms?",
+            "options": [
+                "Bloom",
+                "NeoSemantics",
+                "APOC",
+                "GraphSage"
+            ],
+            "answer": "APOC"
+        },
+        {
+            "question": "What is a primary advantage of graph databases over relational databases?",
+            "options": [
+                "Faster handling of highly connected data",
+                "Better support for tabular data",
+                "More efficient storage of JSON data",
+                "Stronger enforcement of ACID properties"
+            ],
+            "answer": "Faster handling of highly connected data"
+        },
+        {
+            "question": "What does the following Cypher query do? MATCH (nineties:Movie) WHERE nineties.released > 1990 AND nineties.released < 2000 RETURN nineties.title",
+            "options": [
+                "Deletes movies released in the 1990s",
+                "Updates movie titles from the 1990s",
+                "Finds and returns titles of movies released in the 1990s",
+                "Adds new movies to the database"
+            ],
+            "answer": "Finds and returns titles of movies released in the 1990s"
+        },
+        {
+            "question": "In Cypher, what does the syntax (a)-[:ACTED_IN]->(b) represent?",
+            "options": [
+                "A relationship between two nodes where 'a' acted in 'b'",
+                "An update operation on node 'b'",
+                "A new node creation linked to 'b'",
+                "A filter for node properties in 'a' and 'b'"
+            ],
+            "answer": "A relationship between two nodes where 'a' acted in 'b'"
+        },
+        {
+            "question": "What is the primary purpose of the RETURN clause in Cypher?",
+            "options": [
+                "To create new relationships",
+                "To specify what data should be returned from the query",
+                "To filter search results",
+                "To delete nodes or relationships"
+            ],
+            "answer": "To specify what data should be returned from the query"
+        }
+    ]
+}

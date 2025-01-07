@@ -1,0 +1,74 @@
+{
+    "questions": [
+        {
+            "question": "What type of database is MongoDB?",
+            "options": [
+                "Relational database",
+                "Document-oriented NoSQL database",
+                "Key-value store",
+                "Graph database"
+            ],
+            "answer": "Document-oriented NoSQL database"
+        },
+        {
+            "question": "What data format does MongoDB use to store its data?",
+            "options": [
+                "XML",
+                "BSON (Binary JSON)",
+                "CSV",
+                "YAML"
+            ],
+            "answer": "BSON (Binary JSON)"
+        },
+        {
+            "question": "In MongoDB, what is a collection equivalent to in a relational database?",
+            "options": [
+                "A row",
+                "A table",
+                "A column",
+                "A database"
+            ],
+            "answer": "A table"
+        },
+        {
+            "question": "What is the purpose of the `_id` field in a MongoDB document?",
+            "options": [
+                "To indicate the document's type",
+                "To uniquely identify each document",
+                "To store metadata about the document",
+                "To link documents across collections"
+            ],
+            "answer": "To uniquely identify each document"
+        },
+        {
+            "question": "Which MongoDB tool provides a graphical interface for database management?",
+            "options": [
+                "MongoDB Shell",
+                "MongoDB Compass",
+                "Studio 3T",
+                "Robo 3T"
+            ],
+            "answer": "MongoDB Compass"
+        },
+        {
+            "question": "Which command is used in Mongo Shell to create a new collection?",
+            "options": [
+                "db.createNewCollection()",
+                "db.createCollection()",
+                "db.addCollection()",
+                "db.newCollection()"
+            ],
+            "answer": "db.createCollection()"
+        },
+        {
+            "question": "What is a key advantage of MongoDB over relational databases?",
+            "options": [
+                "Enforces strict schemas",
+                "Simplifies hierarchical data storage",
+                "Improved foreign key constraints",
+                "Faster joins"
+            ],
+            "answer": "Simplifies hierarchical data storage"
+        }
+    ]
+}

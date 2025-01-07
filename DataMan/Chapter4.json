@@ -1,0 +1,154 @@
+{
+    "questions": [
+        {
+            "question": "What does SQL stand for?",
+            "options": [
+                "Structured Query Language",
+                "Simple Query Language",
+                "Systematic Query Language",
+                "Standard Query Language"
+            ],
+            "answer": "Structured Query Language"
+        },
+        {
+            "question": "What is the purpose of the SQL Data Definition Language (DDL)?",
+            "options": [
+                "To define, modify, and delete database structures",
+                "To query and manipulate database data",
+                "To control user access to the database",
+                "To execute transactions within a database"
+            ],
+            "answer": "To define, modify, and delete database structures"
+        },
+        {
+            "question": "Which of the following is NOT a valid SQL data type?",
+            "options": [
+                "CHAR(n)",
+                "VARCHAR(n)",
+                "FLOAT",
+                "ARRAY"
+            ],
+            "answer": "ARRAY"
+        },
+        {
+            "question": "What does the PRIMARY KEY constraint ensure?",
+            "options": [
+                "All values in the column are unique and not null",
+                "A foreign key references this column",
+                "The column can store null values",
+                "The column has a default value"
+            ],
+            "answer": "All values in the column are unique and not null"
+        },
+        {
+            "question": "What happens when a table is dropped using the DROP TABLE statement?",
+            "options": [
+                "The table structure and all its data are deleted",
+                "Only the table structure is deleted, data is preserved",
+                "Only foreign key constraints are removed",
+                "The table is archived"
+            ],
+            "answer": "The table structure and all its data are deleted"
+        },
+        {
+            "question": "Which clause in SQL is used to enforce uniqueness of attribute values?",
+            "options": [
+                "NOT NULL",
+                "DEFAULT",
+                "UNIQUE",
+                "FOREIGN KEY"
+            ],
+            "answer": "UNIQUE"
+        },
+        {
+            "question": "How can you specify a foreign key in a CREATE TABLE statement?",
+            "options": [
+                "Using the PRIMARY KEY clause",
+                "Using the REFERENCES clause",
+                "Using the CHECK clause",
+                "Using the DEFAULT clause"
+            ],
+            "answer": "Using the REFERENCES clause"
+        },
+        {
+            "question": "Which SQL command is used to modify the structure of an existing table?",
+            "options": [
+                "MODIFY TABLE",
+                "ALTER TABLE",
+                "CHANGE TABLE",
+                "UPDATE TABLE"
+            ],
+            "answer": "ALTER TABLE"
+        },
+        {
+            "question": "What does the SELECT-FROM-WHERE structure do in SQL?",
+            "options": [
+                "Defines a new table in the database",
+                "Retrieves specific data from one or more tables",
+                "Deletes rows from a table",
+                "Updates column values in a table"
+            ],
+            "answer": "Retrieves specific data from one or more tables"
+        },
+        {
+            "question": "What does the DISTINCT keyword do in a SELECT query?",
+            "options": [
+                "Limits the query result to one row",
+                "Removes duplicate rows from the query result",
+                "Groups rows based on attribute values",
+                "Orders the query result by a specific column"
+            ],
+            "answer": "Removes duplicate rows from the query result"
+        },
+        {
+            "question": "What is the purpose of the ORDER BY clause in SQL?",
+            "options": [
+                "To filter rows based on a condition",
+                "To combine data from multiple tables",
+                "To sort query results in ascending or descending order",
+                "To remove duplicate rows"
+            ],
+            "answer": "To sort query results in ascending or descending order"
+        },
+        {
+            "question": "Which SQL command is used to add new rows to a table?",
+            "options": [
+                "INSERT",
+                "UPDATE",
+                "SELECT",
+                "ADD"
+            ],
+            "answer": "INSERT"
+        },
+        {
+            "question": "What does the TRUNCATE command do in SQL?",
+            "options": [
+                "Removes all rows from a table and deletes the table structure",
+                "Deletes rows from a table based on a condition",
+                "Removes all rows from a table but retains the table structure",
+                "Modifies attribute values of selected rows"
+            ],
+            "answer": "Removes all rows from a table but retains the table structure"
+        },
+        {
+            "question": "Which operator is used in SQL for string pattern matching?",
+            "options": [
+                "BETWEEN",
+                "LIKE",
+                "IN",
+                "MATCH"
+            ],
+            "answer": "LIKE"
+        },
+        {
+            "question": "How can you retrieve all attributes from a table using a SELECT statement?",
+            "options": [
+                "Use the ALL keyword",
+                "Use an asterisk (*)",
+                "List all attribute names",
+                "Use the DISTINCT keyword"
+            ],
+            "answer": "Use an asterisk (*)"
+        }
+    ]
+}

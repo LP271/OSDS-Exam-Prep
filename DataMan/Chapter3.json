@@ -1,0 +1,154 @@
+{
+    "questions": [
+        {
+            "question": "What are the three components of the relational model?",
+            "options": [
+                "Structural, Integrity, Manipulation",
+                "Entities, Attributes, Relationships",
+                "Primary Keys, Foreign Keys, Indexes",
+                "Tables, Views, Constraints"
+            ],
+            "answer": "Structural, Integrity, Manipulation"
+        },
+        {
+            "question": "Who proposed the relational model, and when?",
+            "options": [
+                "E.F. Codd, 1970",
+                "Chen, 1975",
+                "Ramez Elmasri, 1990",
+                "Sadok Ben Yahia, 2023"
+            ],
+            "answer": "E.F. Codd, 1970"
+        },
+        {
+            "question": "What is the cardinality of a relation in the relational model?",
+            "options": [
+                "The number of columns in a table",
+                "The number of rows in a table",
+                "The number of constraints on a table",
+                "The number of foreign keys in a table"
+            ],
+            "answer": "The number of rows in a table"
+        },
+        {
+            "question": "What is the key difference between relational and NoSQL databases?",
+            "options": [
+                "Relational databases do not support constraints, but NoSQL does",
+                "Relational databases are table-based, while NoSQL supports varied structures",
+                "Relational databases are faster than NoSQL",
+                "Relational databases do not use schemas, but NoSQL does"
+            ],
+            "answer": "Relational databases are table-based, while NoSQL supports varied structures"
+        },
+        {
+            "question": "What is a domain in the relational model?",
+            "options": [
+                "A collection of related tables",
+                "A set of atomic values for attributes",
+                "A primary key constraint",
+                "A type of query language"
+            ],
+            "answer": "A set of atomic values for attributes"
+        },
+        {
+            "question": "What does the term 'NULL' represent in a relational model?",
+            "options": [
+                "An invalid value",
+                "A duplicate key",
+                "A missing or undefined value",
+                "A composite attribute"
+            ],
+            "answer": "A missing or undefined value"
+        },
+        {
+            "question": "Which integrity constraint ensures no two rows in a table have the same primary key?",
+            "options": [
+                "Domain constraint",
+                "Entity integrity constraint",
+                "Referential integrity constraint",
+                "Semantic constraint"
+            ],
+            "answer": "Entity integrity constraint"
+        },
+        {
+            "question": "What is a foreign key in a relational database?",
+            "options": [
+                "A primary key used in multiple tables",
+                "A field that uniquely identifies records within its own table",
+                "A set of fields in one table that refers to a primary key in another table",
+                "A table used for querying multiple relations"
+            ],
+            "answer": "A set of fields in one table that refers to a primary key in another table"
+        },
+        {
+            "question": "How does the 'CASCADE' option handle foreign key violations during a deletion?",
+            "options": [
+                "Rejects the deletion",
+                "Sets the foreign key value to NULL",
+                "Deletes all dependent rows in related tables",
+                "Ignores the violation"
+            ],
+            "answer": "Deletes all dependent rows in related tables"
+        },
+        {
+            "question": "What is the purpose of a view in SQL?",
+            "options": [
+                "To store data permanently",
+                "To simplify query writing and enforce security",
+                "To replace tables in a database",
+                "To define primary keys and constraints"
+            ],
+            "answer": "To simplify query writing and enforce security"
+        },
+        {
+            "question": "What is the result of violating referential integrity in a database?",
+            "options": [
+                "Duplicate entries in the database",
+                "Rows in a referencing table without matching rows in the referenced table",
+                "Violation of the primary key constraint",
+                "Loss of atomicity in transactions"
+            ],
+            "answer": "Rows in a referencing table without matching rows in the referenced table"
+        },
+        {
+            "question": "Which relational operation combines rows from two tables based on a common attribute?",
+            "options": [
+                "Projection",
+                "Selection",
+                "Join",
+                "Union"
+            ],
+            "answer": "Join"
+        },
+        {
+            "question": "What is the purpose of normalization in the relational model?",
+            "options": [
+                "To increase the size of the database",
+                "To eliminate redundancy and ensure data integrity",
+                "To enforce referential integrity",
+                "To speed up query performance"
+            ],
+            "answer": "To eliminate redundancy and ensure data integrity"
+        },
+        {
+            "question": "What is a weak entity in the relational model?",
+            "options": [
+                "An entity without any attributes",
+                "An entity that cannot be uniquely identified without a related entity",
+                "An entity that has multiple primary keys",
+                "An entity with undefined values"
+            ],
+            "answer": "An entity that cannot be uniquely identified without a related entity"
+        },
+        {
+            "question": "What is a participation constraint in a relational database?",
+            "options": [
+                "Ensures all rows in a table are unique",
+                "Specifies whether an entity must participate in a relationship",
+                "Defines the domain of attribute values",
+                "Limits the number of attributes in a table"
+            ],
+            "answer": "Specifies whether an entity must participate in a relationship"
+        }
+    ]
+}

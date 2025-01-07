@@ -1,0 +1,154 @@
+{
+    "questions": [
+        {
+            "question": "What is the purpose of the Entity-Relationship (ER) model in database design?",
+            "options": [
+                "To manage hardware-level data storage",
+                "To provide a conceptual design for database schema",
+                "To optimize SQL queries",
+                "To develop physical database structures"
+            ],
+            "answer": "To provide a conceptual design for database schema"
+        },
+        {
+            "question": "Which of the following represents an entity in an ER diagram?",
+            "options": [
+                "An oval",
+                "A box with rounded corners",
+                "A diamond",
+                "A line"
+            ],
+            "answer": "A box with rounded corners"
+        },
+        {
+            "question": "What is the difference between an entity and an attribute?",
+            "options": [
+                "Entities represent objects, attributes are facts about entities",
+                "Entities are always nouns, attributes are always verbs",
+                "Entities are properties, attributes are relationships",
+                "Entities and attributes are interchangeable in ER diagrams"
+            ],
+            "answer": "Entities represent objects, attributes are facts about entities"
+        },
+        {
+            "question": "What type of relationship exists when each lecturer tutors multiple students, but each student has only one tutor?",
+            "options": [
+                "One-to-One (1:1)",
+                "One-to-Many (1:M)",
+                "Many-to-Many (M:M)",
+                "Ternary Relationship"
+            ],
+            "answer": "One-to-Many (1:M)"
+        },
+        {
+            "question": "How are attributes represented in an ER diagram?",
+            "options": [
+                "As rectangles",
+                "As ovals linked to entities",
+                "As diamonds",
+                "As dashed lines"
+            ],
+            "answer": "As ovals linked to entities"
+        },
+        {
+            "question": "What is a cardinality ratio in a relationship?",
+            "options": [
+                "The maximum number of entities involved in the relationship",
+                "The number of attributes in an entity",
+                "The degree to which an attribute is linked to an entity",
+                "The number of instances of an entity involved in a relationship"
+            ],
+            "answer": "The maximum number of entities involved in the relationship"
+        },
+        {
+            "question": "What is a ternary relationship in an ER diagram?",
+            "options": [
+                "A relationship involving three attributes",
+                "A relationship involving three entities",
+                "A hierarchical relationship",
+                "A redundant one-to-one relationship"
+            ],
+            "answer": "A relationship involving three entities"
+        },
+        {
+            "question": "How can a many-to-many (M:M) relationship be resolved in an ER diagram?",
+            "options": [
+                "By merging entities involved in the relationship",
+                "By creating two one-to-many relationships and an intermediate entity",
+                "By introducing additional attributes",
+                "By using a ternary relationship"
+            ],
+            "answer": "By creating two one-to-many relationships and an intermediate entity"
+        },
+        {
+            "question": "In the ER model, what determines whether 'address' should be an entity or an attribute?",
+            "options": [
+                "The size of the database",
+                "The complexity and semantics of the data",
+                "The number of relationships it has",
+                "The domain of its values"
+            ],
+            "answer": "The complexity and semantics of the data"
+        },
+        {
+            "question": "What is an example of a redundant one-to-one relationship?",
+            "options": [
+                "A product linked to its supplier",
+                "A supplier linked to its unique address",
+                "A module linked to its lecturer",
+                "A student linked to multiple courses"
+            ],
+            "answer": "A supplier linked to its unique address"
+        },
+        {
+            "question": "What are the general guidelines for identifying entities in a textual description?",
+            "options": [
+                "They are always verbs in the description",
+                "They are often nouns representing objects or things",
+                "They are always linked by attributes",
+                "They can only be abstract concepts"
+            ],
+            "answer": "They are often nouns representing objects or things"
+        },
+        {
+            "question": "In the assignment example, which entity represents a unique identifier for a patient?",
+            "options": [
+                "PName",
+                "PTel",
+                "PAdmNum",
+                "PAdd"
+            ],
+            "answer": "PAdmNum"
+        },
+        {
+            "question": "What relationship type exists between a doctor and a patient in the hospital example?",
+            "options": [
+                "One-to-One (1:1)",
+                "One-to-Many (1:M)",
+                "Many-to-Many (M:M)",
+                "Redundant Relationship"
+            ],
+            "answer": "One-to-Many (1:M)"
+        },
+        {
+            "question": "Which of the following is NOT a step in creating an ER diagram?",
+            "options": [
+                "Identifying entities",
+                "Specifying cardinality ratios",
+                "Optimizing SQL queries",
+                "Identifying relationships"
+            ],
+            "answer": "Optimizing SQL queries"
+        },
+        {
+            "question": "What is the purpose of debugging designs in ER modeling?",
+            "options": [
+                "To eliminate redundancy",
+                "To ensure attributes are correctly linked",
+                "To plan queries and ensure all required data is represented",
+                "To optimize storage"
+            ],
+            "answer": "To plan queries and ensure all required data is represented"
+        }
+    ]
+}

@@ -1,0 +1,154 @@
+{
+    "questions": [
+        {
+            "question": "What is the definition of Big Data?",
+            "options": [
+                "A collection of small datasets analyzed collectively",
+                "A set of massive datasets difficult to process using traditional tools",
+                "A methodology for optimizing database structures",
+                "A term used for storing structured data only"
+            ],
+            "answer": "A set of massive datasets difficult to process using traditional tools"
+        },
+        {
+            "question": "Which of the following is NOT one of the '3 V's of Big Data?",
+            "options": [
+                "Volume",
+                "Variety",
+                "Velocity",
+                "Validation"
+            ],
+            "answer": "Validation"
+        },
+        {
+            "question": "What is the primary objective of Zero Knowledge Proofs in Cloud-Fog-Edge environments?",
+            "options": [
+                "To enhance processing speed",
+                "To ensure data integrity without revealing the data itself",
+                "To manage database connections",
+                "To monitor real-time analytics"
+            ],
+            "answer": "To ensure data integrity without revealing the data itself"
+        },
+        {
+            "question": "Which database type is best suited for storing hierarchical data?",
+            "options": [
+                "Relational databases",
+                "NoSQL databases",
+                "Document databases",
+                "Graph databases"
+            ],
+            "answer": "Document databases"
+        },
+        {
+            "question": "What does the term 'schema' in a relational database refer to?",
+            "options": [
+                "The physical layout of the database",
+                "The logical structure of a database, including tables and relationships",
+                "The application interface of a database",
+                "The indexing methodology for queries"
+            ],
+            "answer": "The logical structure of a database, including tables and relationships"
+        },
+        {
+            "question": "What are the primary benefits of using a DBMS over custom file applications?",
+            "options": [
+                "Enhanced security, data independence, and efficient access",
+                "Cheaper deployment and minimal maintenance",
+                "Lack of concurrency control",
+                "Reduced data integrity"
+            ],
+            "answer": "Enhanced security, data independence, and efficient access"
+        },
+        {
+            "question": "What is a transaction in the context of databases?",
+            "options": [
+                "A single command executed by a DBMS",
+                "A sequence of database actions executed atomically",
+                "A query that modifies database structure",
+                "An operation that guarantees backup storage"
+            ],
+            "answer": "A sequence of database actions executed atomically"
+        },
+        {
+            "question": "How does a DBMS ensure atomicity during crashes?",
+            "options": [
+                "By duplicating data on multiple servers",
+                "By keeping a log of all actions and using Write Ahead Logging (WAL)",
+                "By implementing NoSQL techniques",
+                "By executing transactions in parallel"
+            ],
+            "answer": "By keeping a log of all actions and using Write Ahead Logging (WAL)"
+        },
+        {
+            "question": "What is the main difference between a relational and NoSQL database?",
+            "options": [
+                "Relational databases use tables, NoSQL databases use JSON only",
+                "Relational databases provide structured data, NoSQL databases provide unstructured data",
+                "Relational databases are faster, NoSQL databases are slower",
+                "Relational databases allow scalability, NoSQL does not"
+            ],
+            "answer": "Relational databases provide structured data, NoSQL databases provide unstructured data"
+        },
+        {
+            "question": "Which Python package is commonly used to interact with both relational and NoSQL databases?",
+            "options": [
+                "NumPy",
+                "pandas",
+                "SQLAlchemy",
+                "matplotlib"
+            ],
+            "answer": "SQLAlchemy"
+        },
+        {
+            "question": "What is the primary focus of concurrency control in a DBMS?",
+            "options": [
+                "To enhance transaction speed",
+                "To ensure transactions are executed in a serializable order",
+                "To minimize storage usage",
+                "To allow immediate user access"
+            ],
+            "answer": "To ensure transactions are executed in a serializable order"
+        },
+        {
+            "question": "What is a primary benefit of NoSQL databases?",
+            "options": [
+                "They require no query languages for data manipulation",
+                "They support high scalability and flexibility",
+                "They are strictly relational",
+                "They are faster for all types of queries"
+            ],
+            "answer": "They support high scalability and flexibility"
+        },
+        {
+            "question": "In database design, what is normalization?",
+            "options": [
+                "A process to optimize query performance",
+                "A technique to eliminate redundancy and ensure data integrity",
+                "A method to simplify database queries",
+                "A type of NoSQL data model"
+            ],
+            "answer": "A technique to eliminate redundancy and ensure data integrity"
+        },
+        {
+            "question": "What is the role of a database administrator (DBA)?",
+            "options": [
+                "To design application interfaces",
+                "To write Python programs for databases",
+                "To manage database security, recovery, and tuning",
+                "To implement Zero Trust models in databases"
+            ],
+            "answer": "To manage database security, recovery, and tuning"
+        },
+        {
+            "question": "What is a major challenge with Big Data in real-time environments?",
+            "options": [
+                "Designing efficient physical schemas",
+                "Maintaining relational schema integrity",
+                "Processing and analyzing data continuously",
+                "Reducing the variety of incoming data"
+            ],
+            "answer": "Processing and analyzing data continuously"
+        }
+    ]
+}

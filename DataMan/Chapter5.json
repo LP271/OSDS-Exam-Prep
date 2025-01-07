@@ -1,0 +1,154 @@
+{
+    "questions": [
+        {
+            "question": "What is a nested query in SQL?",
+            "options": [
+                "A query that uses aggregate functions",
+                "A query embedded within the WHERE clause of another query",
+                "A query with multiple joins",
+                "A query that updates multiple tables"
+            ],
+            "answer": "A query embedded within the WHERE clause of another query"
+        },
+        {
+            "question": "What does the EXISTS function check in SQL?",
+            "options": [
+                "If a table exists in the database",
+                "If a column exists in a table",
+                "If a correlated nested query returns any rows",
+                "If two tables are related by a foreign key"
+            ],
+            "answer": "If a correlated nested query returns any rows"
+        },
+        {
+            "question": "Which SQL clause is used to group rows that share the same values in specified columns?",
+            "options": [
+                "GROUP BY",
+                "ORDER BY",
+                "HAVING",
+                "JOIN"
+            ],
+            "answer": "GROUP BY"
+        },
+        {
+            "question": "What is the purpose of the HAVING clause in SQL?",
+            "options": [
+                "To filter individual rows in a query",
+                "To filter groups of rows after applying aggregate functions",
+                "To order the query results",
+                "To join multiple tables"
+            ],
+            "answer": "To filter groups of rows after applying aggregate functions"
+        },
+        {
+            "question": "Which of the following is NOT an aggregate function in SQL?",
+            "options": [
+                "COUNT",
+                "SUM",
+                "MAX",
+                "JOIN"
+            ],
+            "answer": "JOIN"
+        },
+        {
+            "question": "What does the term 'trigger' refer to in SQL?",
+            "options": [
+                "A procedure that starts automatically when a specified event occurs",
+                "A constraint that enforces referential integrity",
+                "A query that updates multiple tables",
+                "A schema for defining database tables"
+            ],
+            "answer": "A procedure that starts automatically when a specified event occurs"
+        },
+        {
+            "question": "Which keyword is used to create a trigger in SQL?",
+            "options": [
+                "CREATE TRIGGER",
+                "DEFINE TRIGGER",
+                "START TRIGGER",
+                "EXECUTE TRIGGER"
+            ],
+            "answer": "CREATE TRIGGER"
+        },
+        {
+            "question": "What is a view in SQL?",
+            "options": [
+                "A temporary table used for intermediate data storage",
+                "A virtual table derived from other tables",
+                "A table that stores metadata",
+                "A backup of the database"
+            ],
+            "answer": "A virtual table derived from other tables"
+        },
+        {
+            "question": "Which SQL command is used to define a view?",
+            "options": [
+                "CREATE VIEW",
+                "CREATE TABLE",
+                "DEFINE VIEW",
+                "INSERT VIEW"
+            ],
+            "answer": "CREATE VIEW"
+        },
+        {
+            "question": "What is the difference between an updatable view and a non-updatable view?",
+            "options": [
+                "An updatable view allows SELECT queries only, while a non-updatable view allows all DML operations",
+                "An updatable view can modify data in the base table, while a non-updatable view cannot",
+                "An updatable view contains aggregate functions, while a non-updatable view does not",
+                "An updatable view cannot reference multiple tables, while a non-updatable view can"
+            ],
+            "answer": "An updatable view can modify data in the base table, while a non-updatable view cannot"
+        },
+        {
+            "question": "Which of the following clauses is NOT allowed in an updatable view?",
+            "options": [
+                "GROUP BY",
+                "WHERE",
+                "HAVING",
+                "DISTINCT"
+            ],
+            "answer": "GROUP BY"
+        },
+        {
+            "question": "What does the WITH CHECK OPTION clause ensure in a view?",
+            "options": [
+                "The view is created with a unique constraint",
+                "Only valid data that satisfies the view condition can be inserted or updated",
+                "The view can only be used for SELECT queries",
+                "The view is automatically updated when the base table changes"
+            ],
+            "answer": "Only valid data that satisfies the view condition can be inserted or updated"
+        },
+        {
+            "question": "What is the main advantage of using SQL triggers?",
+            "options": [
+                "They allow dynamic table creation",
+                "They enable automatic execution of actions on specific database events",
+                "They simplify query writing",
+                "They replace foreign key constraints"
+            ],
+            "answer": "They enable automatic execution of actions on specific database events"
+        },
+        {
+            "question": "Which of the following is NOT a valid trigger event in SQL?",
+            "options": [
+                "INSERT",
+                "UPDATE",
+                "DELETE",
+                "JOIN"
+            ],
+            "answer": "JOIN"
+        },
+        {
+            "question": "What is a correlated nested query?",
+            "options": [
+                "A query that references an attribute from an outer query",
+                "A query with multiple aggregate functions",
+                "A query that joins more than two tables",
+                "A query that retrieves unique rows"
+            ],
+            "answer": "A query that references an attribute from an outer query"
+        }
+    ]
+}

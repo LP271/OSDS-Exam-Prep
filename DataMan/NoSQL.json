@@ -1,0 +1,74 @@
+{
+    "questions": [
+        {
+            "question": "What does the term 'NoSQL' stand for?",
+            "options": [
+                "Non-Sequential Query Language",
+                "Not Only SQL",
+                "New Object Storage Language",
+                "Network-Oriented Query Language"
+            ],
+            "answer": "Not Only SQL"
+        },
+        {
+            "question": "Which of the following is NOT a type of NoSQL database?",
+            "options": [
+                "Key-Value store",
+                "Document-oriented",
+                "Graph-based",
+                "Array-oriented"
+            ],
+            "answer": "Array-oriented"
+        },
+        {
+            "question": "What does the CAP theorem describe?",
+            "options": [
+                "Trade-offs between consistency, availability, and partition tolerance",
+                "Scalability of relational databases",
+                "Techniques for indexing in NoSQL",
+                "Storage optimization in distributed systems"
+            ],
+            "answer": "Trade-offs between consistency, availability, and partition tolerance"
+        },
+        {
+            "question": "Which NoSQL model is most suitable for social networks?",
+            "options": [
+                "Document-oriented",
+                "Key-value store",
+                "Graph-based",
+                "Column-oriented"
+            ],
+            "answer": "Graph-based"
+        },
+        {
+            "question": "What is the BASE model in NoSQL databases?",
+            "options": [
+                "Basic Availability, Soft state, Eventual consistency",
+                "Basic Analysis, Scalability, Efficiency",
+                "Basic Access, Secure Encryption",
+                "Basic Array, Schema-less, Efficiency"
+            ],
+            "answer": "Basic Availability, Soft state, Eventual consistency"
+        },
+        {
+            "question": "Which NoSQL database type is suitable for storing hierarchical data?",
+            "options": [
+                "Key-Value store",
+                "Document-oriented",
+                "Graph-based",
+                "Column-oriented"
+            ],
+            "answer": "Document-oriented"
+        },
+        {
+            "question": "What is a common use case for Key-Value NoSQL databases?",
+            "options": [
+                "Managing relational data",
+                "Distributed session storage",
+                "Complex data analytics",
+                "Processing large graphs"
+            ],
+            "answer": "Distributed session storage"
+        }
+    ]
+}
