@@ -1,118 +1,96 @@
-import streamlit as st
+import tkinter as tk
+from tkinter import messagebox
 import json
 import os
 import random
 
-# Base directories for lesson/chapter selection
-directories = {
-    "Data Management": "DataMan",  # Map logical name to folder name
-    "OSDS": "OSDS"
-}
+# Check if quiz_data.json exists
+file_path = "quiz_data.json"
+if not os.path.exists(file_path):
+    raise FileNotFoundError(f"{file_path} not found. Make sure it's in the same directory as main.py.")
 
-# Helper function to get lessons or chapters
-def get_lessons_or_chapters(directory):
-    try:
-        items = os.listdir(directory)
-        lessons = [item for item in items if os.path.isfile(os.path.join(directory, item)) and item.endswith('.json')]
-        return sorted(lessons)
-    except FileNotFoundError:
-        st.error(f"Directory '{directory}' not found.")
-        return []
+# Load questions from quiz_data.json
+with open(file_path, "r") as file:
+    quiz_data = json.load(file)
 
-# Load questions from a selected JSON file
-def load_questions(file_path):
-    try:
-        with open(file_path, "r") as f:
-            data = json.load(f)
-        return data.get("questions", [])
-    except FileNotFoundError:
-        st.error(f"File '{file_path}' not found.")
-        return []
-    except json.JSONDecodeError:
-        st.error(f"File '{file_path}' contains invalid JSON.")
-        return []
+questions = quiz_data["questions"]
 
-# Flatten the data and randomize the order of the questions
-def get_questions(data):
-    questions = [q for q in data]
-    random.shuffle(questions)
-    return questions
+# Shuffle the questions to make the order random
+random.shuffle(questions)
 
-# Check if session state variables are initialized
-if "selection_screen" not in st.session_state:
-    st.session_state.selection_screen = True
-if "questions" not in st.session_state:
-    st.session_state.questions = []
-if "question_index" not in st.session_state:
-    st.session_state.question_index = 0
-if "score" not in st.session_state:
-    st.session_state.score = 0
-if "answer_checked" not in st.session_state:
-    st.session_state.answer_checked = False
+# Variable to track the current question index
+current_question = 0
+score = 0
 
-if st.session_state.selection_screen:
-    # Directory selection
-    selected_directory = st.sidebar.selectbox("Select Directory", list(directories.keys()))
-    
-    # Lesson or chapter selection
-    base_path = directories[selected_directory]
-    lessons_or_chapters = get_lessons_or_chapters(base_path)
-    if not lessons_or_chapters:
-        st.warning(f"No valid JSON lessons found in {selected_directory}.")
+def check_answer(selected_option):
+    global current_question, score
+    is_correct = questions[current_question]["options"][selected_option] == questions[current_question]["answer"]
+    if is_correct:
+        score += 1
+        result_label.config(text="Correct!", fg="lime")
     else:
-        selected_file = st.sidebar.selectbox("Select Lesson/Chapter", lessons_or_chapters)
+        result_label.config(text=f"Wrong! Correct answer: {questions[current_question]['answer']}", fg="red")
+    
+    # Enable the "Next" button
+    next_button.config(state=tk.NORMAL)
 
-        if selected_file and st.button("Start Quiz"):
-            file_path = os.path.join(base_path, selected_file)
-            questions = load_questions(file_path)
-            if questions:
-                st.session_state.questions = get_questions(questions)
-                st.session_state.selection_screen = False
-                st.session_state.question_index = 0
-                st.session_state.score = 0
-                st.session_state.answer_checked = False
-else:
-    # Get the current question
-    current_question = st.session_state.questions[st.session_state.question_index]
+def next_question():
+    global current_question
+    current_question += 1  # Increment the question index
+    if current_question < len(questions):
+        load_question(current_question)
+        result_label.config(text="")  # Clear the result label
+        next_button.config(state=tk.DISABLED)  # Disable the "Next" button
+    else:
+        show_score()
 
-    # Display question and options
-    st.subheader(f"Question {st.session_state.question_index + 1}")
-    st.write(current_question["question"])
+def load_question(question_index):
+    question = questions[question_index]
+    
+    # Update the question text
+    question_label.config(text=question["question"])
+    
+    # Update the button text with options
+    for i, option in enumerate(question["options"]):
+        option_buttons[i].config(text=option, state=tk.NORMAL)
+    
+    # Disable buttons if the options are fewer than the total buttons
+    for i in range(len(question["options"]), len(option_buttons)):
+        option_buttons[i].config(state=tk.DISABLED)
 
-    # Show answer choices
-    choices = current_question["options"]
-    selected_option = st.radio("Options", choices, key=st.session_state.question_index)
+def show_score():
+    messagebox.showinfo("Quiz Completed", f"Your final score is: {score}/{len(questions)}")
+    window.quit()
 
-    # Check answer
-    if st.button("Check Answer"):
-        if selected_option == current_question["answer"]:
-            st.success("Correct!")
-            st.session_state.score += 1
-        else:
-            st.error(f"Wrong! The correct answer was: {current_question['answer']}")
-        st.session_state.answer_checked = True
+# Create the main window with a dark theme
+window = tk.Tk()
+window.title("Quiz App")
+window.config(bg="#121212")  # Dark background color
 
-    # Navigation buttons
-    col1, col2, col3 = st.columns(3)
-    with col1:
-        if st.session_state.question_index > 0 and st.button("Previous Question"):
-            st.session_state.question_index -= 1
-            st.session_state.answer_checked = False
+# Create the question label
+question_label = tk.Label(window, text="", font=("Arial", 16), width=50, height=2, anchor="w", fg="white", bg="#121212", wraplength=600)
+question_label.pack(pady=20)
 
-    with col2:
-        if st.session_state.answer_checked and st.button("Next Question"):
-            st.session_state.question_index += 1
-            if st.session_state.question_index >= len(st.session_state.questions):
-                st.session_state.question_index = 0
-                st.session_state.questions = get_questions(st.session_state.questions)  # Re-randomize questions
-            st.session_state.answer_checked = False
+# Create the buttons for options
+option_buttons = []
+for i in range(4):
+    button = tk.Button(
+        window, text="", font=("Arial", 14), width=50, height=2, 
+        command=lambda i=i: check_answer(i), bg="#1E1E1E", fg="white", activebackground="#333333", activeforeground="white", wraplength=600
+    )
+    button.pack(pady=5)
+    option_buttons.append(button)
 
-    with col3:
-        if st.button("Back to Selection Screen"):
-            st.session_state.selection_screen = True
-            st.session_state.questions = []
-            st.session_state.question_index = 0
-            st.session_state.score = 0
+# Create a label to display results (correct or wrong)
+result_label = tk.Label(window, text="", font=("Arial", 14), bg="#121212", fg="white")
+result_label.pack(pady=10)
 
-    # Display score
-    st.write(f"Your current score: {st.session_state.score}/{len(st.session_state.questions)}")
+# Create the "Next" button
+next_button = tk.Button(window, text="Next", font=("Arial", 14), width=20, height=2, command=next_question, state=tk.DISABLED, bg="#1E1E1E", fg="white", activebackground="#333333", activeforeground="white")
+next_button.pack(pady=20)
+
+# Load the first question
+load_question(current_question)
+
+# Run the Tkinter event loop
+window.mainloop()

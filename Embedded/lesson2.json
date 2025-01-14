@@ -1,0 +1,154 @@
+{
+    "questions": [
+        {
+            "question": "What is the purpose of the #include directive in a C++ program?",
+            "options": [
+                "To define new variables",
+                "To include the contents of other files, such as libraries",
+                "To specify the entry point of the program",
+                "To compile the program"
+            ],
+            "answer": "To include the contents of other files, such as libraries"
+        },
+        {
+            "question": "What is the entry point for any C++ program?",
+            "options": [
+                "#include directive",
+                "main() function",
+                "Header file",
+                "Control structure"
+            ],
+            "answer": "main() function"
+        },
+        {
+            "question": "Which of the following is NOT a control structure in C++?",
+            "options": [
+                "if",
+                "for",
+                "switch",
+                "#define"
+            ],
+            "answer": "#define"
+        },
+        {
+            "question": "What is the primary purpose of namespaces in C++?",
+            "options": [
+                "To group functions and classes to avoid conflicts",
+                "To define new data types",
+                "To create control structures",
+                "To manage memory allocation"
+            ],
+            "answer": "To group functions and classes to avoid conflicts"
+        },
+        {
+            "question": "What distinguishes C++ from C?",
+            "options": [
+                "C++ is a procedural language, while C is object-oriented",
+                "C++ supports object-oriented programming, while C is procedural",
+                "C is only used for embedded systems, while C++ is not",
+                "C++ has no backward compatibility with C"
+            ],
+            "answer": "C++ supports object-oriented programming, while C is procedural"
+        },
+        {
+            "question": "Which version of C++ is commonly used with the RP2040 Pico?",
+            "options": [
+                "C++98",
+                "C++11",
+                "C++17",
+                "C++20"
+            ],
+            "answer": "C++17"
+        },
+        {
+            "question": "What is cross-development in embedded systems?",
+            "options": [
+                "Writing code that runs on the same platform where it is developed",
+                "Developing software on a PC for execution on a different platform",
+                "Testing software without compiling it",
+                "Creating executable files without linking libraries"
+            ],
+            "answer": "Developing software on a PC for execution on a different platform"
+        },
+        {
+            "question": "What is the role of a cross-compiler in embedded systems?",
+            "options": [
+                "To link object files",
+                "To generate machine code for the target platform",
+                "To debug the software",
+                "To flash the executable file"
+            ],
+            "answer": "To generate machine code for the target platform"
+        },
+        {
+            "question": "What is the purpose of flashing in embedded systems?",
+            "options": [
+                "To debug the program",
+                "To compile the source code",
+                "To transfer the executable file to the target hardware",
+                "To link the libraries"
+            ],
+            "answer": "To transfer the executable file to the target hardware"
+        },
+        {
+            "question": "Which debugging tool is commonly used for embedded systems?",
+            "options": [
+                "OpenOCD",
+                "SQLAlchemy",
+                "matplotlib",
+                "Docker"
+            ],
+            "answer": "OpenOCD"
+        },
+        {
+            "question": "What is the function of the GNU Debugger (GDB)?",
+            "options": [
+                "To compile source code",
+                "To monitor variable values and step through code",
+                "To link libraries",
+                "To flash the executable file"
+            ],
+            "answer": "To monitor variable values and step through code"
+        },
+        {
+            "question": "What is the purpose of a toolchain in embedded systems?",
+            "options": [
+                "To group all debugging tools",
+                "To include necessary tools for cross-compiling, linking, and debugging",
+                "To manage memory allocation",
+                "To flash programs to the target device"
+            ],
+            "answer": "To include necessary tools for cross-compiling, linking, and debugging"
+        },
+        {
+            "question": "Which file format is often used for executables in embedded systems?",
+            "options": [
+                ".elf",
+                ".json",
+                ".cpp",
+                ".csv"
+            ],
+            "answer": ".elf"
+        },
+        {
+            "question": "What is terminal debugging?",
+            "options": [
+                "Debugging a program by modifying the source code",
+                "Monitoring, logging, and debugging software via a terminal interface",
+                "Flashing programs using a terminal",
+                "Compiling code without an IDE"
+            ],
+            "answer": "Monitoring, logging, and debugging software via a terminal interface"
+        },
+        {
+            "question": "How does the #define directive help in terminal debugging?",
+            "options": [
+                "It defines variables for debugging",
+                "It includes debug messages conditionally",
+                "It prevents debug messages from being excluded",
+                "It adds extra functionality to terminal logs"
+            ],
+            "answer": "It includes debug messages conditionally"
+        }
+    ]
+}

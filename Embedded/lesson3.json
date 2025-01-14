@@ -1,0 +1,154 @@
+{
+    "questions": [
+        {
+            "question": "What is the primary purpose of a Hardware Abstraction Layer (HAL) in embedded systems?",
+            "options": [
+                "To directly control hardware components",
+                "To abstract hardware interaction, making code portable and maintainable",
+                "To replace the need for device drivers",
+                "To optimize memory usage in embedded systems"
+            ],
+            "answer": "To abstract hardware interaction, making code portable and maintainable"
+        },
+        {
+            "question": "Which function is used in HAL to set a GPIO pin high?",
+            "options": [
+                "HAL_GPIO_Write(GPIOA, GPIO_PIN_5, GPIO_PIN_HIGH)",
+                "HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_SET)",
+                "gpio_set(GPIOA, GPIO_PIN_5)",
+                "HAL_GPIO_Set(GPIOA, GPIO_PIN_5)"
+            ],
+            "answer": "HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_SET)"
+        },
+        {
+            "question": "What is the role of device drivers in embedded systems?",
+            "options": [
+                "To interact directly with memory-mapped registers",
+                "To provide a clean and reusable API for hardware components",
+                "To replace HAL in complex systems",
+                "To debug hardware issues"
+            ],
+            "answer": "To provide a clean and reusable API for hardware components"
+        },
+        {
+            "question": "What is a memory-mapped register?",
+            "options": [
+                "A register mapped to a specific CPU core",
+                "A range of memory addresses used to control hardware components",
+                "A temporary storage in RAM for hardware data",
+                "A register that holds debugging information"
+            ],
+            "answer": "A range of memory addresses used to control hardware components"
+        },
+        {
+            "question": "What is the purpose of the volatile keyword when accessing memory-mapped registers?",
+            "options": [
+                "To allocate memory dynamically",
+                "To prevent compiler optimizations that skip necessary reads/writes",
+                "To enhance execution speed of hardware control",
+                "To simplify the syntax for pointer access"
+            ],
+            "answer": "To prevent compiler optimizations that skip necessary reads/writes"
+        },
+        {
+            "question": "Which timer type is used to reset the system if software fails to respond?",
+            "options": [
+                "Basic Timer",
+                "PWM Timer",
+                "Watchdog Timer",
+                "Capture Timer"
+            ],
+            "answer": "Watchdog Timer"
+        },
+        {
+            "question": "What is the typical use of a PWM timer in embedded systems?",
+            "options": [
+                "To measure time intervals between events",
+                "To generate periodic interrupts",
+                "To create PWM signals for controlling devices like motors",
+                "To keep track of real-time clock values"
+            ],
+            "answer": "To create PWM signals for controlling devices like motors"
+        },
+        {
+            "question": "What is the primary function of a prescaler in a timer setup?",
+            "options": [
+                "To multiply the timer clock speed",
+                "To divide the timer clock speed",
+                "To reset the timer value",
+                "To generate an interrupt on overflow"
+            ],
+            "answer": "To divide the timer clock speed"
+        },
+        {
+            "question": "Which keyword allows seamless integration of C code in a C++ program?",
+            "options": [
+                "#include \"c_support.h\"",
+                "extern \"C\"",
+                "#define C_CODE",
+                "namespace c"
+            ],
+            "answer": "extern \"C\""
+        },
+        {
+            "question": "Why are memory-mapped registers preferred in embedded systems?",
+            "options": [
+                "They allow the CPU to interact with peripherals as if they were variables",
+                "They reduce the complexity of the software stack",
+                "They eliminate the need for device drivers",
+                "They enable direct multitasking on microcontrollers"
+            ],
+            "answer": "They allow the CPU to interact with peripherals as if they were variables"
+        },
+        {
+            "question": "What is the advantage of using HAL over direct hardware access?",
+            "options": [
+                "It provides maximum control over the hardware",
+                "It ensures portability and maintainability of the code",
+                "It simplifies debugging by exposing low-level details",
+                "It optimizes memory usage"
+            ],
+            "answer": "It ensures portability and maintainability of the code"
+        },
+        {
+            "question": "What type of timer is used to generate an event when the timer value matches a predefined compare value?",
+            "options": [
+                "Capture Timer",
+                "PWM Timer",
+                "Compare Timer",
+                "Real-Time Clock"
+            ],
+            "answer": "Compare Timer"
+        },
+        {
+            "question": "What is the primary purpose of an SDK in embedded systems?",
+            "options": [
+                "To debug software on microcontrollers",
+                "To provide tools and libraries for application development on specific hardware",
+                "To manage memory-mapped registers",
+                "To control peripherals directly"
+            ],
+            "answer": "To provide tools and libraries for application development on specific hardware"
+        },
+        {
+            "question": "What is a common issue when mixing C and C++ in embedded systems?",
+            "options": [
+                "C does not support hardware abstraction",
+                "Linking C functions with C++ code requires the use of extern \"C\"",
+                "C++ cannot use device drivers written in C",
+                "C compilers do not support memory-mapped registers"
+            ],
+            "answer": "Linking C functions with C++ code requires the use of extern \"C\""
+        },
+        {
+            "question": "Why might real-time operating systems (RTOS) be written in C?",
+            "options": [
+                "To maximize portability and efficiency",
+                "To leverage advanced object-oriented features",
+                "To ensure compatibility with HAL",
+                "To simplify debugging"
+            ],
+            "answer": "To maximize portability and efficiency"
+        }
+    ]
+}
